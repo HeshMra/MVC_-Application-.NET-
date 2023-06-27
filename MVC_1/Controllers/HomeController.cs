@@ -41,7 +41,7 @@ namespace MVC_1.Controllers
         {
             Contact contact = new Contact
             {
-                Tp = "0785566783"
+                Tp = "0785566783" //telephone number
             };
             return View(contact);
         }
