@@ -14,7 +14,7 @@ namespace MVC_1.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() //INDEX PAGE
         {
             Student student = new Student
             {
@@ -26,7 +26,7 @@ namespace MVC_1.Controllers
             return View(student);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() //PRIVACY PAGE
         {
             Details details = new Details
             {
@@ -37,7 +37,7 @@ namespace MVC_1.Controllers
             return View(details);
         }
 
-        public IActionResult ContactUs()
+        public IActionResult ContactUs() //CONTACT US PAGE
         {
             Contact contact = new Contact
             {
